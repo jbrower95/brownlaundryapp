@@ -1,7 +1,7 @@
 # brownlaundryapp
 A Brown Laundry App for iOS
 
-TODO: Figure out all of the different types of dryers / washer things from the API.
+Contributing: Check out the issues tab. Fork the repository, work on one, test, and submit a pull request. 
 
 Credits:
 Dryer logo - Santiago Arias (The Noun Project)
