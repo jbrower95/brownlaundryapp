@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0BA35871C76F3C100D0FD1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA35861C76F3C100D0FD1E /* main.m */; };
+		D0BA358A1C76F3C100D0FD1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA35891C76F3C100D0FD1E /* AppDelegate.m */; };
+		D0BA358D1C76F3C100D0FD1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA358C1C76F3C100D0FD1E /* ViewController.m */; };
+		D0BA35901C76F3C100D0FD1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BA358E1C76F3C100D0FD1E /* Main.storyboard */; };
+		D0BA35921C76F3C100D0FD1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BA35911C76F3C100D0FD1E /* Assets.xcassets */; };
+		D0BA35951C76F3C100D0FD1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BA35931C76F3C100D0FD1E /* LaunchScreen.storyboard */; };
+		D0BA35A01C76F3C100D0FD1E /* Brown_LaundryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA359F1C76F3C100D0FD1E /* Brown_LaundryTests.m */; };
+		D0BA35AB1C76F3C100D0FD1E /* Brown_LaundryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA35AA1C76F3C100D0FD1E /* Brown_LaundryUITests.m */; };
+		D0BA35BB1C77005B00D0FD1E /* MachineTakenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA35BA1C77005B00D0FD1E /* MachineTakenCell.m */; };
+		D0BA35BE1C77932000D0FD1E /* ChooseRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA35BD1C77932000D0FD1E /* ChooseRoomViewController.m */; };
+		D0BA35C11C77945600D0FD1E /* Api.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA35C01C77945600D0FD1E /* Api.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0BA359C1C76F3C100D0FD1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0BA357A1C76F3C100D0FD1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0BA35811C76F3C100D0FD1E;
+			remoteInfo = "Brown Laundry";
+		};
+		D0BA35A71C76F3C100D0FD1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0BA357A1C76F3C100D0FD1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0BA35811C76F3C100D0FD1E;
+			remoteInfo = "Brown Laundry";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0BA35821C76F3C100D0FD1E /* Brown Laundry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brown Laundry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BA35861C76F3C100D0FD1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0BA35881C76F3C100D0FD1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0BA35891C76F3C100D0FD1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0BA358B1C76F3C100D0FD1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0BA358C1C76F3C100D0FD1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0BA358F1C76F3C100D0FD1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0BA35911C76F3C100D0FD1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0BA35941C76F3C100D0FD1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0BA35961C76F3C100D0FD1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BA359B1C76F3C100D0FD1E /* Brown LaundryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brown LaundryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BA359F1C76F3C100D0FD1E /* Brown_LaundryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Brown_LaundryTests.m; sourceTree = "<group>"; };
+		D0BA35A11C76F3C100D0FD1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BA35A61C76F3C100D0FD1E /* Brown LaundryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brown LaundryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BA35AA1C76F3C100D0FD1E /* Brown_LaundryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Brown_LaundryUITests.m; sourceTree = "<group>"; };
+		D0BA35AC1C76F3C100D0FD1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BA35B91C77005B00D0FD1E /* MachineTakenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MachineTakenCell.h; sourceTree = "<group>"; };
+		D0BA35BA1C77005B00D0FD1E /* MachineTakenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MachineTakenCell.m; sourceTree = "<group>"; };
+		D0BA35BC1C77932000D0FD1E /* ChooseRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseRoomViewController.h; sourceTree = "<group>"; };
+		D0BA35BD1C77932000D0FD1E /* ChooseRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseRoomViewController.m; sourceTree = "<group>"; };
+		D0BA35BF1C77945600D0FD1E /* Api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Api.h; sourceTree = "<group>"; };
+		D0BA35C01C77945600D0FD1E /* Api.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Api.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0BA357F1C76F3C100D0FD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BA35981C76F3C100D0FD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BA35A31C76F3C100D0FD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0BA35791C76F3C100D0FD1E = {
+			isa = PBXGroup;
+			children = (
+				D0BA35841C76F3C100D0FD1E /* Brown Laundry */,
+				D0BA359E1C76F3C100D0FD1E /* Brown LaundryTests */,
+				D0BA35A91C76F3C100D0FD1E /* Brown LaundryUITests */,
+				D0BA35831C76F3C100D0FD1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0BA35831C76F3C100D0FD1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA35821C76F3C100D0FD1E /* Brown Laundry.app */,
+				D0BA359B1C76F3C100D0FD1E /* Brown LaundryTests.xctest */,
+				D0BA35A61C76F3C100D0FD1E /* Brown LaundryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0BA35841C76F3C100D0FD1E /* Brown Laundry */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA35B81C77002B00D0FD1E /* cells */,
+				D0BA35881C76F3C100D0FD1E /* AppDelegate.h */,
+				D0BA35891C76F3C100D0FD1E /* AppDelegate.m */,
+				D0BA358B1C76F3C100D0FD1E /* ViewController.h */,
+				D0BA358C1C76F3C100D0FD1E /* ViewController.m */,
+				D0BA358E1C76F3C100D0FD1E /* Main.storyboard */,
+				D0BA35911C76F3C100D0FD1E /* Assets.xcassets */,
+				D0BA35931C76F3C100D0FD1E /* LaunchScreen.storyboard */,
+				D0BA35961C76F3C100D0FD1E /* Info.plist */,
+				D0BA35851C76F3C100D0FD1E /* Supporting Files */,
+				D0BA35BC1C77932000D0FD1E /* ChooseRoomViewController.h */,
+				D0BA35BD1C77932000D0FD1E /* ChooseRoomViewController.m */,
+				D0BA35BF1C77945600D0FD1E /* Api.h */,
+				D0BA35C01C77945600D0FD1E /* Api.m */,
+			);
+			path = "Brown Laundry";
+			sourceTree = "<group>";
+		};
+		D0BA35851C76F3C100D0FD1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA35861C76F3C100D0FD1E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0BA359E1C76F3C100D0FD1E /* Brown LaundryTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA359F1C76F3C100D0FD1E /* Brown_LaundryTests.m */,
+				D0BA35A11C76F3C100D0FD1E /* Info.plist */,
+			);
+			path = "Brown LaundryTests";
+			sourceTree = "<group>";
+		};
+		D0BA35A91C76F3C100D0FD1E /* Brown LaundryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA35AA1C76F3C100D0FD1E /* Brown_LaundryUITests.m */,
+				D0BA35AC1C76F3C100D0FD1E /* Info.plist */,
+			);
+			path = "Brown LaundryUITests";
+			sourceTree = "<group>";
+		};
+		D0BA35B81C77002B00D0FD1E /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA35B91C77005B00D0FD1E /* MachineTakenCell.h */,
+				D0BA35BA1C77005B00D0FD1E /* MachineTakenCell.m */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0BA35811C76F3C100D0FD1E /* Brown Laundry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BA35AF1C76F3C100D0FD1E /* Build configuration list for PBXNativeTarget "Brown Laundry" */;
+			buildPhases = (
+				D0BA357E1C76F3C100D0FD1E /* Sources */,
+				D0BA357F1C76F3C100D0FD1E /* Frameworks */,
+				D0BA35801C76F3C100D0FD1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brown Laundry";
+			productName = "Brown Laundry";
+			productReference = D0BA35821C76F3C100D0FD1E /* Brown Laundry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0BA359A1C76F3C100D0FD1E /* Brown LaundryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BA35B21C76F3C100D0FD1E /* Build configuration list for PBXNativeTarget "Brown LaundryTests" */;
+			buildPhases = (
+				D0BA35971C76F3C100D0FD1E /* Sources */,
+				D0BA35981C76F3C100D0FD1E /* Frameworks */,
+				D0BA35991C76F3C100D0FD1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BA359D1C76F3C100D0FD1E /* PBXTargetDependency */,
+			);
+			name = "Brown LaundryTests";
+			productName = "Brown LaundryTests";
+			productReference = D0BA359B1C76F3C100D0FD1E /* Brown LaundryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0BA35A51C76F3C100D0FD1E /* Brown LaundryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BA35B51C76F3C100D0FD1E /* Build configuration list for PBXNativeTarget "Brown LaundryUITests" */;
+			buildPhases = (
+				D0BA35A21C76F3C100D0FD1E /* Sources */,
+				D0BA35A31C76F3C100D0FD1E /* Frameworks */,
+				D0BA35A41C76F3C100D0FD1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BA35A81C76F3C100D0FD1E /* PBXTargetDependency */,
+			);
+			name = "Brown LaundryUITests";
+			productName = "Brown LaundryUITests";
+			productReference = D0BA35A61C76F3C100D0FD1E /* Brown LaundryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0BA357A1C76F3C100D0FD1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Big Sweet Software Projects";
+				TargetAttributes = {
+					D0BA35811C76F3C100D0FD1E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D0BA359A1C76F3C100D0FD1E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D0BA35811C76F3C100D0FD1E;
+					};
+					D0BA35A51C76F3C100D0FD1E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D0BA35811C76F3C100D0FD1E;
+					};
+				};
+			};
+			buildConfigurationList = D0BA357D1C76F3C100D0FD1E /* Build configuration list for PBXProject "Brown Laundry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0BA35791C76F3C100D0FD1E;
+			productRefGroup = D0BA35831C76F3C100D0FD1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0BA35811C76F3C100D0FD1E /* Brown Laundry */,
+				D0BA359A1C76F3C100D0FD1E /* Brown LaundryTests */,
+				D0BA35A51C76F3C100D0FD1E /* Brown LaundryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0BA35801C76F3C100D0FD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BA35951C76F3C100D0FD1E /* LaunchScreen.storyboard in Resources */,
+				D0BA35921C76F3C100D0FD1E /* Assets.xcassets in Resources */,
+				D0BA35901C76F3C100D0FD1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BA35991C76F3C100D0FD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BA35A41C76F3C100D0FD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0BA357E1C76F3C100D0FD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BA35C11C77945600D0FD1E /* Api.m in Sources */,
+				D0BA35BE1C77932000D0FD1E /* ChooseRoomViewController.m in Sources */,
+				D0BA358D1C76F3C100D0FD1E /* ViewController.m in Sources */,
+				D0BA35BB1C77005B00D0FD1E /* MachineTakenCell.m in Sources */,
+				D0BA358A1C76F3C100D0FD1E /* AppDelegate.m in Sources */,
+				D0BA35871C76F3C100D0FD1E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BA35971C76F3C100D0FD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BA35A01C76F3C100D0FD1E /* Brown_LaundryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BA35A21C76F3C100D0FD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BA35AB1C76F3C100D0FD1E /* Brown_LaundryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0BA359D1C76F3C100D0FD1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0BA35811C76F3C100D0FD1E /* Brown Laundry */;
+			targetProxy = D0BA359C1C76F3C100D0FD1E /* PBXContainerItemProxy */;
+		};
+		D0BA35A81C76F3C100D0FD1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0BA35811C76F3C100D0FD1E /* Brown Laundry */;
+			targetProxy = D0BA35A71C76F3C100D0FD1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0BA358E1C76F3C100D0FD1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0BA358F1C76F3C100D0FD1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0BA35931C76F3C100D0FD1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0BA35941C76F3C100D0FD1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0BA35AD1C76F3C100D0FD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0BA35AE1C76F3C100D0FD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0BA35B01C76F3C100D0FD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Brown Laundry/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jbsbigapps.Brown-Laundry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0BA35B11C76F3C100D0FD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Brown Laundry/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jbsbigapps.Brown-Laundry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0BA35B31C76F3C100D0FD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Brown LaundryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jbsbigapps.Brown-LaundryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brown Laundry.app/Brown Laundry";
+			};
+			name = Debug;
+		};
+		D0BA35B41C76F3C100D0FD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Brown LaundryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jbsbigapps.Brown-LaundryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brown Laundry.app/Brown Laundry";
+			};
+			name = Release;
+		};
+		D0BA35B61C76F3C100D0FD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Brown LaundryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jbsbigapps.Brown-LaundryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Brown Laundry";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D0BA35B71C76F3C100D0FD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Brown LaundryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jbsbigapps.Brown-LaundryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Brown Laundry";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0BA357D1C76F3C100D0FD1E /* Build configuration list for PBXProject "Brown Laundry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BA35AD1C76F3C100D0FD1E /* Debug */,
+				D0BA35AE1C76F3C100D0FD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BA35AF1C76F3C100D0FD1E /* Build configuration list for PBXNativeTarget "Brown Laundry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BA35B01C76F3C100D0FD1E /* Debug */,
+				D0BA35B11C76F3C100D0FD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0BA35B21C76F3C100D0FD1E /* Build configuration list for PBXNativeTarget "Brown LaundryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BA35B31C76F3C100D0FD1E /* Debug */,
+				D0BA35B41C76F3C100D0FD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0BA35B51C76F3C100D0FD1E /* Build configuration list for PBXNativeTarget "Brown LaundryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BA35B61C76F3C100D0FD1E /* Debug */,
+				D0BA35B71C76F3C100D0FD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0BA357A1C76F3C100D0FD1E /* Project object */;
+}
